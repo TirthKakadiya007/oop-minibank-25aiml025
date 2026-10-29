@@ -1,0 +1,23 @@
+# Compiled binaries
+bin/
+bin-test/
+*.class
+*.jar
+!lib/*.jar
+
+# Generated runtime data (Practical 11 note: do not commit generated data files)
+data/*.dat
+data/logs/*.log
+data/logs/*.txt
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE configuration
+.idea/
+*.iml
+.vscode/
+.settings/
+.project/
+.classpath
