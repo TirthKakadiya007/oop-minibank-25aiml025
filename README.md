@@ -1,6 +1,6 @@
 # MiniBank — Object Oriented Programming Capstone Project
 **Course**: Object Oriented Programming (`CEUE203`) | **A.Y.**: 2026 – 27 | **Semester**: 3  
-**Repository Name**: `oop-minibank-<rollno>`
+**Repository Name**: `oop-minibank-25aiml025`
 
 ---
 
