@@ -169,13 +169,12 @@ java -jar lib/junit-platform-console-standalone.jar execute -cp "bin:bin-test" -
 
 ---
 
-## 🧪 Comprehensive Automated Lab Demo (Menu Option 11)
+## 🧭 Console Menu
 
-When running `java -jar minibank.jar`, choose **Option 11**:
-```
-[11] Run Complete All-Practical Verification Demo (Lab 1-14)
-```
-This triggers an automated test runner that verifies every single lab milestone in sequence (Records, Enums, Encapsulation, Reflection, Polymorphism, Concurrency, Serialization, NIO, and Generics) and outputs the live results to the terminal.
+The interactive application deliberately presents nine options only. Options 1–8 provide
+the account operations and batch-processing demonstration; option 9 saves the current
+state and exits. The automated checks are run with `test.bat` or `test.sh`, rather than
+from the application menu.
 
 ---
 

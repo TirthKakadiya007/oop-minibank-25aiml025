@@ -1,7 +1,7 @@
 package minibank.model;
 
 /**
- * Enum defining the navigation and action options available in MiniBank (Practicals 1 & 14).
+ * Enum defining the nine navigation options available in MiniBank.
  */
 public enum MenuOption {
     OPEN_ACCOUNT(1, "Open New Account"),
@@ -12,10 +12,7 @@ public enum MenuOption {
     LIST_ACCOUNTS(6, "List All Accounts (Sorted by Balance)"),
     SEARCH_ACCOUNTS(7, "Search Account by Owner Name"),
     BATCH_PROCESS(8, "Run Safe Batch Transactions (ThreadPool)"),
-    SUMMARY_REPORT(9, "Generate End-of-Day Audit Report (NIO)"),
-    WORKING_HOURS(10, "View Bank Working Hours"),
-    RUN_LAB_DEMOS(11, "Run Complete All-Practical Verification Demo (Lab 1-14)"),
-    EXIT(12, "Save & Exit");
+    EXIT(9, "Save & Exit");
 
     private final int optionNumber;
     private final String description;

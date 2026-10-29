@@ -104,7 +104,7 @@ public class MiniBank {
 
         while (running) {
             printMenu();
-            System.out.print("\nEnter choice (1-12): ");
+            System.out.print("\nEnter choice (1-9): ");
             String input = scanner.nextLine().trim();
 
             int choiceNum;
@@ -112,7 +112,7 @@ public class MiniBank {
                 choiceNum = Integer.parseInt(input);
             } catch (NumberFormatException e) {
                 // Supplementary Problem (Practical 1 & 2): Re-prompt on invalid number
-                System.out.println(">> Invalid input. Please enter a number between 1 and 12.\n");
+                System.out.println(">> Invalid input. Please enter a number between 1 and 9.\n");
                 continue;
             }
 
@@ -132,9 +132,6 @@ public class MiniBank {
                 case LIST_ACCOUNTS   -> { handleListAccounts(); yield true; }
                 case SEARCH_ACCOUNTS -> { handleSearchAccounts(scanner); yield true; }
                 case BATCH_PROCESS   -> { handleBatchProcess(); yield true; }
-                case SUMMARY_REPORT  -> { handleSummaryReport(); yield true; }
-                case WORKING_HOURS   -> { handleWorkingHours(); yield true; }
-                case RUN_LAB_DEMOS   -> { runAllLabMilestoneDemos(); yield true; }
                 case EXIT            -> { System.out.println("\nExiting MiniBank application..."); yield false; }
             };
 
