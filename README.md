@@ -272,28 +272,3 @@ This triggers an automated test runner that verifies every single lab milestone 
    Separating concerns into distinct layers (Model, Repository, Service, UI) promotes modularity, testability, maintainability, and clean decoupling of business logic from persistence and presentation.
 
 ---
-
-## 📤 Step-by-Step GitHub Upload Guide
-
-To submit your project and provide repository access to your instructor:
-
-```bash
-# 1. Initialize local git repository (already pre-configured with lab-01 to lab-14 tags)
-git status
-
-# 2. Add your GitHub remote repository (replace with your actual GitHub username and roll number)
-git remote add origin https://github.com/<your-username>/oop-minibank-<rollno>.git
-
-# 3. Rename branch to main if needed
-git branch -M main
-
-# 4. Push all commits and milestone tags
-git push -u origin main
-git push origin --tags
-```
-
-*(Remember to invite your faculty member as a collaborator in repository Settings -> Collaborators).*
-
----
-
-### © 2026 Faculty of Engineering and Technology | CEUE203 Object Oriented Programming
